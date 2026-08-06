@@ -30,4 +30,10 @@ resource "azurerm_resource_group" "rg1" {
 
   
   }
+  resource "azurerm_resource_group" "rg4" {
+  name     = "ram-rg-4"
+  location = "Central India"
+
+  
+  }
 
