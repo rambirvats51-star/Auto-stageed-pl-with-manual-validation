@@ -17,3 +17,9 @@ resource "azurerm_resource_group" "rg" {
 
   
   }
+resource "azurerm_resource_group" "rg1" {
+  name     = "ram-rg-1"
+  location = "Central India"
+
+  
+  }
