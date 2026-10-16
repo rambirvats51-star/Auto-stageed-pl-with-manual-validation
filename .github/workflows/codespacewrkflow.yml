@@ -19,6 +19,4 @@ jobs:
         run: echo Hello, world!
 
       - name: az login
-        run: az login --service-principal -u 8cade307-832f-4fcd-a576-8a553f6edb82 -p "TsN8Q~hqDUztCeBQHlp0K_hz5fjtY1OD-FcTsaH~" --tenant 8b0de87e-c47c-48cf-9e8e-1250310c221d|
-          echo Add other actions to build,
-          echo test, and deploy your project.
+        run: az login --service-principal --username "3fa8ebd1-45d6-49c1-aa9e-a9fad76d14f3" --password "_WF8Q~Jr.iLeTikxA30hZHuWYi-.Y2mJiCvy6aWe" --tenant "e8ef4a60-5f6d-48fc-835c-b3593ca741f4"
